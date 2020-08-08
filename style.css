@@ -1,0 +1,503 @@
+html{
+  height:100%;
+}
+body{
+  background-color: #D5E5F6; color:#143958; height:100%;
+}
+
+.homepage{
+  height:100%;
+  background-image: url("images/laptop3.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-color:transparent;
+  color:white;
+  
+}
+
+.browseContent{
+  height:100%;
+  background-image:url("images/blue7.JPG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-color:transparent;
+  color:white;
+  
+}
+.bdrContent{
+  background-image:url("images/blue7.JPG");
+  min-height:500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  background-color:#D3D3D3;
+  color:white;
+  
+}
+
+
+.video{
+  position:fixed;
+  bottom:70px;
+  right:0;
+  border:1.2px solid #65386C;
+  border-bottom:none;
+}
+
+
+.bg{
+  background-image: url("images/laptop.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100;
+}
+
+.about{
+	position:relative;
+	padding :60px 40px 0px 40px;
+	float:left;
+}
+
+.content{
+  margin: auto;
+  padding: 120px 160px 0px 160px; 
+  border:0;
+}
+
+ul.navbar{
+  list-style-type: none;
+  padding-right:190px;
+  padding-bottom:0px;
+}
+
+a:link{
+	color: #52BE80;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+
+ul.navbar li{
+  float:right;
+  background: white;
+  color:#035397;
+  padding: 0px 50px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+ul.navbar a{
+  color:#191970;
+  text-decoration:none;
+}
+
+ul.navbar a:hover{
+  color:white;
+  background-color:#191970;
+}
+
+.btn{
+  background-color: inherit;
+  display: inline-block;
+  color:white;
+  font-weight:bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.login{
+  border: none;
+  color:#191970;
+}
+
+.login:hover{
+  color:white;
+  background-color:#191970;
+}
+
+.close{
+  color: white;
+  float:right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.SignIn{
+  border-style: solid;
+  border-color:white;
+}
+
+.logout{
+  background-color:#4D5656;
+  font-size:20px;
+}
+
+.logout:hover{
+  color:#4D4646;
+  background-color:white;
+}
+
+.view{
+  padding-left:36px;
+  color:#095DB6;
+}
+
+.view:hover{
+  background-color:#095DB6;
+  color:white;
+}
+
+.upload{
+  color:#095DB6;
+  border:none;
+  font-size:16px;
+}
+
+.upload:hover{
+  background-color:#095DB6;
+  color:white;
+}
+
+.getStarted{
+  float:right;
+  color:#191970;
+  font-weight:bold;
+  font-size:36px;
+  padding-right: 120px;
+  top:0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.triangle1 {
+    float:right;
+    height: 0;
+    width: 0;
+    border-left: 20px solid #191970;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    padding-right:100px;
+}
+
+.triangle {
+    float:right;
+    height: 0;
+    width: 0;
+    border-left: 20px solid #191970;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    padding-right:50px;
+}
+
+.homeChart{
+  position:absolute;
+  bottom:150px;
+  left:40%;
+}
+
+.logo{
+  position:absolute;
+  top:25px;
+  left:25px;
+}
+
+.smallLogo{
+  position:absolute;
+  top:20px;
+  left:0px;
+}
+
+.logIn{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.logIn2{
+	position:absolute;
+	top:0;
+	left:1em;
+	color:blue;
+}
+
+
+.homeParagraph{
+  z-index: 1;
+	position:relative;
+  left:-550px;
+  bottom:200px;
+	float:left;
+  color:'black';
+  margin:auto;
+  width:400px;
+  font-size:26px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.modal3{
+	display:none;
+	position:fixed;
+	z-index:1;
+	right: 0;
+  top: 0;
+  width: 50%; 
+  height: 50%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  color:#52BE80;
+}
+.modal3-content{
+	margin:15% auto;
+	padding:20px;
+	width:80%;
+}
+
+.modal5{
+	display:none;
+	position:fixed;
+	z-index:1;
+	right: 0;
+  top: 0;
+  width: 50%; 
+  height: 50%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: #65386C;
+  font-color:white;
+  bottom:0;
+}
+
+.modal3-content{
+	margin:15% auto;
+	padding:20px;
+	width:80%;
+}
+
+.change{
+	padding:10px 0px;
+	float:right;
+}
+
+
+
+.category{
+	margin-right:-160px;
+	padding: 10px 0px;
+	overflow:auto;
+}
+
+.category3{
+	margin-right:-140px;
+	padding: 10px 0px;
+	overflow:auto;
+}
+
+.category2{
+	padding: 10px 0px;
+	overflow:auto;
+}
+
+.sideParagraph{
+  height:200px;
+  width:40%;
+	position:relative;
+	padding:50px 16px;
+	float:left;
+	border:1.2px solid #65386C;
+  background-color: #095DB6;
+  border:1.2px solid #65386C;
+}
+
+.product{
+  height:200px;
+  width:40%;
+	position:relative;
+	padding:50px 16px;
+	float:left;
+	border:1.2px solid #65386C;
+  background-color: #095DB6;
+  border:1.2px solid #65386C;
+}
+
+
+
+.product2{
+  height:400px;
+  width:40%;
+	position:relative;
+	padding:50px 16px;
+	float:left;
+	border:1.2px solid #65386C;
+  background-color: #095DB6;
+  border:1.2px solid #65386C;
+}
+
+.product21{
+  height:220px;
+  width:40%;
+	position:relative;
+	padding:50px 16px;
+	float:left;
+	border:1.2px solid #65386C;
+  background-color: #095DB6;
+  border:1.2px solid #65386C;
+}
+
+.product3{
+  height:100px;
+  width:40%;
+	position:relative;
+	padding:50px 16px;
+	float:left;
+	border:1.2px solid #65386C;
+  background-color: white;
+  color: #095DB6;
+  border:1.2px solid #143958;
+}
+
+.product4{
+  height:100px;
+  width:30%;
+	position:relative;
+	padding:50px 16px;
+	float:left;
+	border:1.2px solid #65386C;
+  background-color: #095DB6;
+  color: #095DB6;
+  border:1.2px solid #143958;
+}
+
+.option{
+  height:200px;
+  width:40%;
+  position:relative;
+  padding:10px 16px;
+  float:left;
+  border:1.2px solid #143958;
+  color:#143958;
+  background-color: white;
+}
+
+.title{
+  height:50px;
+  width:40%;
+  position:relative;
+  padding:10px 16px;
+  float:left;
+  border:1.2px solid #095DB6;
+  background-color: white;
+  color:#095DB6;
+  font-weight:bold;
+}
+
+.title2{
+  height:50px;
+  width:40%;
+  position:relative;
+  padding:10px 16px;
+  float:left;
+  border:1.2px solid #65386C;
+  background-color: #095DB6;
+  color:#095DB6;
+  font-weight:bold;
+}
+
+
+
+.opElement{
+  padding-top:20px;
+}
+
+
+
+.nav{
+    border:solid white;
+    border-width:2px 0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+	  font-size:large;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+    color:#34b7aa;
+}
+
+.homebar{
+  overflow:hidden;
+  position: fixed;
+  bottom: 10px;
+  width:100%;
+  text-align:center;
+  border-style:solid;
+  border-color:#2C3E50;
+  border-width:1px;
+}
+
+.homebar a{
+  display: inline-block;
+  list-style-type: none;
+  color:#2C3E50;
+  font-size:30px;
+  padding:10px 60px;
+}
+
+.homebar a.selected:active{
+  color:white;
+}
+
+.navbar1{
+  margin-top:25%;
+  height:75%;
+}
+
+ul.navbar1{
+	list-style-type:none;		/*Don't want any numbering or bulletpoints*/
+	margin:0;
+	padding:0;
+
+	position:fixed;				/*Stay with scrolling*/
+	width:200px;			
+	height:100%;
+}
+
+ul.navbar1 li{
+	background-color:#d3fde5;
+	display:block;
+	padding:25px 30px 25px 30px;
+}
+
+
+/*Navbar links*/
+ul.navbar1 a{
+	text-decoration:none;
+  color:#2F4F4F;
+  font-size:20px;
+}
+
+/*Links decoration when hovered over*/
+ul.navbar1 a:hover {
+	text-decoration: none;	
+	background: #2F4F4F;	/* a is your link, hover over the link and make it underlined and red */
+	color: #d3fde5;
+}
+
+/* Fixing navbar and logo*/
+.navAndLogo{
+  margin-top:50px;
+	position:fixed;
+}
